@@ -19,7 +19,8 @@ type Props = {
 export const CartContext = createContext<CartContextType | null>(null);
 
 const CartProvider = ({ children }: Props) => {
-  const [cartData, setCartData] = useState<CartEntry[]>([]);
+  const savedCart = localStorage.getItem("cart");
+  const [cartData, setCartData] = useState<CartEntry[]>(savedCart ? JSON.parse(savedCart) : []);
 
   const addCartItem = (newItem: Product) => {
     setCartData([...cartData, { amount: 1, product: newItem }]);

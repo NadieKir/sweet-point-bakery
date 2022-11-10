@@ -20,6 +20,8 @@ function Cart() {
     let roundTotal = Number(total.toFixed(2));
 
     setTotalPrice(roundTotal);
+
+    localStorage.setItem("cart", JSON.stringify(cartData));
   }, [cartData]);
 
   const handleCheckout = () => {
