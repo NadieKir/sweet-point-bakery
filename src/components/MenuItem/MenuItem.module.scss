@@ -1,0 +1,81 @@
+@import "scss/variables.scss";
+@import "scss/mixins.scss";
+
+.card {
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;  
+  flex-grow: 1;
+  padding: 25px;
+  
+  background-color: $white-color;
+}
+
+.heading {
+  position: relative;
+
+  width: max-content;
+
+  @include heading($h3-font-size, $main-color);
+
+  &::before {
+    content: "";
+    display: block;
+    height: 1px;
+    background: $secondary-color;
+    position: absolute;
+    bottom: -2px;
+    width: 100%;
+  }
+}
+
+.description {
+  font-family: $secondary-font;
+  font-weight: 300;
+  font-size: $card-desc-font-size;
+}
+
+.price-button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.price {
+  font-size: $card-price-font-size;
+  text-transform: uppercase;
+  color: $main-color;
+}
+
+.buy-button {
+  box-sizing: border-box;
+  padding: 6px 20px;
+
+  font-size: $card-button-font-size;
+  text-transform: uppercase;
+
+  color: $main-color;
+  background: transparent;
+  border: 1px solid $main-color;
+  border-radius: $border-radius-all;
+
+  cursor: pointer;
+  transition: 0.2s;
+
+  &:hover {
+    background: $main-color;
+    color: $white-color;
+  }
+}

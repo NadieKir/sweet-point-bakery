@@ -1,0 +1,46 @@
+@import "scss/variables.scss";
+@import "scss/mixins.scss";
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px 0;
+  margin: -1px -1px 0 0;
+
+  border-top: 1px solid $secondary-color;
+  border-bottom: 1px solid $secondary-color;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  width: 90%;
+}
+
+.heading {
+  @include heading($h3-font-size, $main-color);
+}
+
+.price {
+  font-size: $cart-price-font-size;
+  text-transform: uppercase;
+}
+
+.blue {
+  color: $main-color;
+}
+
+.delete-button {
+  border: none;
+  background: transparent;
+
+  cursor: pointer;
+  transition: 0.2s;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}

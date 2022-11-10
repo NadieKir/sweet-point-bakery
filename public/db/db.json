@@ -1,0 +1,108 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "category": "bakery",
+      "image": "assets/images/bakery-apple-muffin.jpg",
+      "name": "Apple Muffin",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "price": 2.79
+    },
+    {
+      "id": 2,
+      "category": "bakery",
+      "image": "assets/images/bakery-apple-shosson.jpg",
+      "name": "Apple Shosson",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+      "price": 2.99
+    },
+    {
+      "id": 3,
+      "category": "bakery",
+      "image": "assets/images/bakery-classic-croissant.jpg",
+      "name": "Classic Croissant",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "price": 3.59
+    },
+    {
+      "id": 4,
+      "category": "bakery",
+      "image": "assets/images/bakery-cottage-cheese-puff.jpg",
+      "name": "Cottage Cheese Puff",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "price": 2.99
+    },
+    {
+      "id": 5,
+      "category": "bakery",
+      "image": "assets/images/bakery-el-katalan.jpg",
+      "name": "El Katalan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "price": 3.79
+    },
+    {
+      "id": 6,
+      "category": "bakery",
+      "image": "assets/images/bakery-peach-danish.jpg",
+      "name": "Peach Danish",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore ",
+      "price": 3.99
+    },
+    {
+      "id": 7,
+      "category": "cakes",
+      "image": "assets/images/cake-blackberry.jpg",
+      "name": "Blackberry",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "price": 3.99
+    },
+    {
+      "id": 8,
+      "category": "cakes",
+      "image": "assets/images/cake-blueberry.jpg",
+      "name": "Blueberry",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "price": 3.99
+    },
+    {
+      "id": 9,
+      "category": "cakes",
+      "image": "assets/images/cake-chocolate-cherry.jpg",
+      "name": "Chocolate Cherry",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+      "price": 4.29
+    },
+    {
+      "id": 10,
+      "category": "cakes",
+      "image": "assets/images/cake-passion-fruit.jpg",
+      "name": "Passion Fruit",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "price": 4.49
+    },
+    {
+      "id": 11,
+      "category": "cakes",
+      "image": "assets/images/cake-sea-buckthorn.jpg",
+      "name": "Sea Buckthorn",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "price": 4.49
+    },
+    {
+      "id": 12,
+      "category": "cakes",
+      "image": "assets/images/cake-pistachio-raspberry.jpg",
+      "name": "Pistachio Raspberry",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "price": 4.79
+    },
+    {
+      "id": 13,
+      "category": "cakes",
+      "image": "assets/images/cake-sunrise.jpg",
+      "name": "Sunrise",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "price": 4.59
+    }
+  ]
+}

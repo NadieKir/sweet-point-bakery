@@ -1,0 +1,44 @@
+@import "scss/mixins.scss";
+@import "scss/variables.scss";
+
+.header {
+  background:$main-color;
+  padding: 40px 0;
+}
+
+.container {
+  @include container-center($main-container-width);
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+}
+
+.heading-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  &::before,
+  &::after {
+	content: '';
+    display: block;
+    flex-grow: 1;
+    height: 1px;
+    background: $white-color;
+  }
+}
+
+.heading {
+  font-family: $secondary-font;
+  font-weight: 400;
+  font-size: $h1-font-size;
+  
+  color: $white-color;
+  margin: 0 40px;
+}
+
+.yellow {
+  color: $secondary-color;
+}

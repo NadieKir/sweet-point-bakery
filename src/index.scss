@@ -1,0 +1,48 @@
+@import "scss/variables.scss";
+
+@font-face {
+  font-family: 'Lifehack Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lifehack Sans'),
+    url('assets/fonts/LifehackSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lifehack Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Lifehack Sans'),
+    url('assets/fonts/LifehackSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Gilroy'),
+    url('assets/fonts/Gilroy-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Gilroy'),
+    url('assets/fonts/Gilroy-Regular.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $background-color;
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 400;
+  color: $black-color;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
+}

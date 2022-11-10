@@ -1,0 +1,16 @@
+@import "scss/variables.scss";
+@import "scss/mixins.scss";
+
+.notification {
+  display: flex;
+  column-gap: 15px;
+  align-items: center;
+  padding: 20px 40px;
+
+  background: $main-color;
+  border-radius: $border-radius-creative;
+}
+
+.heading {
+  @include heading($h3-font-size);
+}

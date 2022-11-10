@@ -1,0 +1,8 @@
+@import "scss/variables.scss";
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  row-gap: 60px;
+  width: $menu-container-width;
+}

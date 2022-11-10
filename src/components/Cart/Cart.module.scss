@@ -1,0 +1,94 @@
+@import "scss/variables.scss";
+@import "scss/mixins.scss";
+
+.cart {
+  position: sticky;
+  top: 30px;
+
+  width: $cart-container-width;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  padding: 35px;
+
+  border: 2px solid $main-color;
+  border-radius: $border-radius-creative;
+  background: $white-color;
+}
+
+.heading {
+  @include heading($h2-font-size);
+
+  text-align: center;
+  color: $main-color;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.total {
+  font-size: $cart-total-price-font-size;
+  text-transform: uppercase;
+
+  color: $black-color;
+}
+
+.checkout-button {
+  width: 100%;
+  padding: 8px 0;
+
+  font-size: $cart-button-font-size;
+  text-transform: uppercase;
+
+  background: $main-color;
+  color: $white-color;
+  border: none;
+  border-radius: $border-radius-all;
+
+  cursor: pointer;
+  transition: 0.2s;
+
+  &:hover {
+    background: lighten($main-color, 8%);
+  }
+}
+
+.bold-blue {
+  color: $main-color;
+  font-weight: 500;
+}
+
+// EMPTY CART
+
+.empty-cart-info {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.empty-cart-image {
+  margin: 15px 0;
+}
+
+.empty-cart-heading {
+  font-weight: 400;
+  font-size: $h3-font-size;
+  text-transform: uppercase;
+
+  color: $main-color;
+}
+
+.empty-cart-description {
+  width: 80%;
+  margin-bottom: 10px;
+
+  font-family: $secondary-font;
+  font-weight: 300;
+  font-size: $empty-cart-desc-font-size;
+  text-align: center;
+}

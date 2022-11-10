@@ -1,0 +1,7 @@
+@import "scss/variables.scss";
+
+.notification-wrapper {
+  position: fixed;
+  bottom: 40px;
+  right: calc((100% - $main-container-width) / 2);
+}

@@ -1,0 +1,27 @@
+@import "scss/variables.scss";
+@import "scss/mixins.scss";
+
+.menu-category {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.heading {
+  width: 100%;
+  padding: 10px 0;
+  
+  @include heading($h2-font-size);
+  text-align: center;
+
+  background-color: $main-color;
+  border-radius: $border-radius-creative;
+}
+
+.cards-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(16rem, 100%), 1fr));
+  grid-gap: 1.25rem;
+
+  list-style: none;
+}

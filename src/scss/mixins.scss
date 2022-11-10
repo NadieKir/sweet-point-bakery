@@ -1,0 +1,14 @@
+@import "scss/variables.scss";
+
+@mixin container-center($width: "100%") {
+  margin: 0 auto;
+  width: $width;
+}
+
+@mixin heading($font-size, $color: $white-color) {
+  font-family: $main-font;
+  font-weight: 400;
+  font-size: $font-size;
+  text-transform: uppercase;
+  color: $color;
+}

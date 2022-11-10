@@ -1,0 +1,22 @@
+@import "scss/variables.scss";
+@import "scss/mixins.scss";
+
+.footer {
+  background: $main-color;
+}
+
+.container {
+  @include container-center($main-container-width);
+
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+
+}
+
+.description {
+  font-size: $footer-desc-font-size;
+  text-transform: uppercase;
+
+  color: $white-color;
+}
