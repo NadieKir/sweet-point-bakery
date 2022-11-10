@@ -3,6 +3,7 @@ import React from "react";
 import Notification from "components/Notification/Notification";
 
 import orderAccepted from "assets/images/check.svg";
+
 import styles from "./OrderAcceptedNotification.module.scss";
 
 type Props = {

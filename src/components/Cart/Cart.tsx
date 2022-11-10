@@ -17,7 +17,9 @@ function Cart() {
 
   useEffect(() => {
     let total = cartData.reduce((sum, current) => sum + current.product.price * current.amount, 0);
-    setTotalPrice(+total.toFixed(2));
+    let roundTotal = Number(total.toFixed(2));
+
+    setTotalPrice(roundTotal);
   }, [cartData]);
 
   const handleCheckout = () => {

@@ -18,7 +18,7 @@ function Notification({ children, onFinish }: Props) {
   useEffect(() => {
     setTimeout(() => {
       setIsStartAnimation(false);
-      setTimeout(() => onFinish(), animationDuration);
+      setTimeout(onFinish, animationDuration);
     }, idleDuration);
   });
 

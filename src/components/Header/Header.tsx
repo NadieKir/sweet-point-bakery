@@ -2,6 +2,7 @@ import React from "react";
 
 import logo from "assets/images/logo.svg";
 import heart from "assets/images/heart.svg";
+
 import styles from "./Header.module.scss";
 
 function Header() {

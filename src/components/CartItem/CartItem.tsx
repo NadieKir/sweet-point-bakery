@@ -4,6 +4,7 @@ import { CartContext, CartContextType } from "context/CartContext";
 import { CartEntry } from "types/CartEntry";
 
 import deleteItem from "assets/images/cross.svg";
+
 import styles from "./CartItem.module.scss";
 
 type Props = {
