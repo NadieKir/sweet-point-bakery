@@ -11,10 +11,9 @@
   display: flex;
   justify-content: space-between;
   row-gap: 60px;
-}
 
-@media screen and (max-width: 800px) {
-  .container {
+  @media screen and (max-width: 992px) {
     flex-direction: column;
   }
 }
+

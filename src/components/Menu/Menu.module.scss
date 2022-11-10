@@ -5,4 +5,9 @@
   flex-direction: column;
   row-gap: 60px;
   width: $menu-container-width;
+
+  @media screen and (max-width: 992px) {
+    width: 100%;
+  }
 }
+
