@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Sweet Point Bakery
 > A web-site for a bakery with its menu and a cart
 
 [DEPLOY](https://master--gleaming-fudge-3f1294.netlify.app/)
